@@ -1,9 +1,6 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
-<<<<<<< HEAD
 *.pkl filter=lfs diff=lfs merge=lfs -text
-Movie[[:space:]]Recommender[[:space:]]System/notebook/similarity.pkl filter=lfs diff=lfs merge=lfs -text
-Movie[[:space:]]Recommender[[:space:]]System/script/similarity.pkl filter=lfs diff=lfs merge=lfs -text
-Movie[[:space:]]Recommender[[:space:]]System/notebook/movies.pkl filter=lfs diff=lfs merge=lfs -text
-Movie[[:space:]]Recommender[[:space:]]System/script/movies.pkl filter=lfs diff=lfs merge=lfs -text
-=======
->>>>>>> a7290f6 (Project)
+Movie Recommender System/notebook/similarity.pkl filter=lfs diff=lfs merge=lfs -text
+Movie Recommender System/script/similarity.pkl filter=lfs diff=lfs merge=lfs -text
+Movie Recommender System/notebook/movies.pkl filter=lfs diff=lfs merge=lfs -text
+Movie Recommender System/script/movies.pkl filter=lfs diff=lfs merge=lfs -text
