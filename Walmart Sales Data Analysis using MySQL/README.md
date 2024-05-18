@@ -2,9 +2,9 @@
 
 ## About
 
-This project aims to explore the Walmart Sales data to understand top performing branches and products, sales trend of of different products, customer behaviour. The aims is to study how sales strategies can be improved and optimized. The dataset was obtained from the [Walmart Sales Forecasting Data](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
+This project aims to explore the Walmart Sales data to understand top performing branches and products, sales trend of of different products, customer behaviour. The aims is to study how sales strategies can be improved and optimized. The dataset was obtained from the [Kaggle Walmart Sales Forecasting Data]((https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Walmart%20Sales%20Data%20Analysis%20using%20MySQL/WalmartSalesData.csv.csv)).
 
-"In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)
+"In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." [source](https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Walmart%20Sales%20Data%20Analysis%20using%20MySQL/WalmartSalesData.csv.csv)
 
 ## Purposes Of The Project
 
@@ -12,7 +12,7 @@ The major aim of thie project is to gain insight into the sales data of Walmart 
 
 ## About Data
 
-The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
+The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]([https://www.kaggle.com/c/(https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Walmart%20Sales%20Data%20Analysis%20using%20MySQL/WalmartSalesData.csv.csv)). This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
 
 | Column                  | Description                             | Data Type      |
 | :---------------------- | :-------------------------------------- | :------------- |
@@ -148,26 +148,29 @@ For the rest of the code, check the [Walmart Sales Data Analysis using SQL.sql](
 
 ```sql
 -- Create database
-CREATE DATABASE IF NOT EXISTS walmartSales;
+create database if not exists walmartsales;
 
--- Create table
-CREATE TABLE IF NOT EXISTS sales(
-	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
-    branch VARCHAR(5) NOT NULL,
-    city VARCHAR(30) NOT NULL,
-    customer_type VARCHAR(30) NOT NULL,
-    gender VARCHAR(30) NOT NULL,
-    product_line VARCHAR(100) NOT NULL,
-    unit_price DECIMAL(10,2) NOT NULL,
-    quantity INT NOT NULL,
-    tax_pct FLOAT(6,4) NOT NULL,
-    total DECIMAL(12, 4) NOT NULL,
-    date DATETIME NOT NULL,
-    time TIME NOT NULL,
-    payment VARCHAR(15) NOT NULL,
-    cogs DECIMAL(10,2) NOT NULL,
-    gross_margin_pct FLOAT(11,9),
-    gross_income DECIMAL(12, 4),
-    rating FLOAT(2, 1)
+-- Use database
+Use walmartsales;
+
+-- Create Table
+CREATE TABLE sales(
+invoice_id VARCHAR(20) NOT NULL PRIMARY KEY,
+branch VARCHAR(10) NOT NULL,
+city VARCHAR(20) NOT NULL,
+customer_type VARCHAR(30) NOT NULL,
+gender VARCHAR(10) NOT NULL,
+product_line VARCHAR(100) NOT NULL,
+unit_price DECIMAL(10,2) NOT NULL,
+quantity INT NOT NULL,
+VAT FLOAT(6,4) NOT NULL,
+total DECIMAL(10,2) NOT NULL,
+date DATETIME NOT NULL,
+time TIME NOT NULL,
+payment_method VARCHAR(15) NOT NULL,
+cogs DECIMAL(10,2),
+gross_margin_percentage FLOAT(11,9),
+gross_income DECIMAL(12,4),
+rating FLOAT(2,1)
 );
 ```
