@@ -42,6 +42,7 @@ Ensure you have the following Python libraries installed:
 - kneed
 
 You can install the required libraries using the following command:
+<<<<<<< HEAD
 ```bash
     pip install -r requirements.txt
 ```
@@ -116,6 +117,9 @@ Ensure you have the following Python libraries installed:
 
 You can install the required libraries using the following command:
  ```bash
+=======
+    ```bash
+>>>>>>> 4b2473f (Update Project)
     pip install -r requirements.txt
     ```
 
