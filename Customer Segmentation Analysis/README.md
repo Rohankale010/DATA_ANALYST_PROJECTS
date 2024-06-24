@@ -43,6 +43,7 @@ Ensure you have the following Python libraries installed:
 
 You can install the required libraries using the following command:
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```bash
     pip install -r requirements.txt
 ```
@@ -120,8 +121,11 @@ You can install the required libraries using the following command:
 =======
     ```bash
 >>>>>>> 4b2473f (Update Project)
+=======
+```bash
+>>>>>>> 62829c4 (Update Project)
     pip install -r requirements.txt
-    ```
+```
 
 ## Usage
 
