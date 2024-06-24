@@ -23,6 +23,7 @@ The COVID Data Analysis project aims to explore and visualize the spread and imp
 - Visualization of the findings
 
 ## Project Structure
+<<<<<<< HEAD
 ```plaintext
  Covid Analysis using Python/
      ├── data/
@@ -41,6 +42,26 @@ The COVID Data Analysis project aims to explore and visualize the spread and imp
      ├── README.md
      ├── requirements.txt
 ```
+=======
+DATA_ANALYST_PROJECTS/
+├── Covid Analysis using Python/
+│   ├── data/
+│   │   ├── covid_19_india.csv
+│   │   ├── covid_vaccine_statewise.csv
+│   ├── notebooks/
+│   │   ├── covid_data_analysis.ipynb
+│   ├── scripts/
+│   │   ├── covid_data_analysis.py
+│   ├── visualizations/
+│   │   ├── top_10_active_cases.png
+│   │   ├── top_10_death_cases.png
+│   │   ├── top_5_affected_states.png
+│   │   ├── top_5_vaccinated_states.png
+│   │   ├── least_5_vaccinated_states.png
+│   ├── README.md
+│   ├── requirements.txt
+
+>>>>>>> d9829f8 (Update Project)
 
 ## Installation and Setup
 
@@ -48,6 +69,7 @@ To run the project, follow these steps:
 
 
 1. **Clone the repository:**
+<<<<<<< HEAD
 ```bash
     git clone https://github.com/Rohankale010/DATA_ANALYST_PROJECTS.git
     cd DATA_ANALYST_PROJECTS/Covid Analysis using Python
@@ -57,6 +79,17 @@ To run the project, follow these steps:
 ```bash
     python -m venv venv
 ```
+=======
+    ```bash
+    git clone https://github.com/Rohankale010/DATA_ANALYST_PROJECTS.git
+    cd DATA_ANALYST_PROJECTS/Covid Analysis using Python
+    ``
+
+2. **Create a virtual environment:**
+    ```bash
+    python -m venv venv
+    ```
+>>>>>>> d9829f8 (Update Project)
 
 3. **Activate the virtual environment:**
     - On Windows:
@@ -69,6 +102,7 @@ To run the project, follow these steps:
       ```
 
 4. **Install the required libraries:**
+<<<<<<< HEAD
 ```bash
     pip install -r requirements.txt
 ```
@@ -77,6 +111,16 @@ To run the project, follow these steps:
 ```bash
     python scripts/covid_data_analysis.py
 ```
+=======
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. **Run the analysis script:**
+    ```bash
+    python scripts/covid_data_analysis.py
+    ```
+>>>>>>> d9829f8 (Update Project)
 
 ## Data Sources
 
