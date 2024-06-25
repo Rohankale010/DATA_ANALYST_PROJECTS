@@ -95,8 +95,12 @@ fig_dot2.write_image("D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-com
 # Price over Time plot
 df_date_retail = pd.DataFrame(df.groupby('Date')['retail_price'].mean().reset_index())
 df_date_discount = pd.DataFrame(df.groupby('Date')['discounted_price'].mean().reset_index())
+<<<<<<< HEAD
 df_date_price = pd.concat([df_date_retail, df_date_discount], axis=1)
 df_date_price=df_date_price.loc[:, ~df_date_price.columns.duplicated()]
+=======
+df_date_price = pd.concat([df_date_retail, df_date_discount], axis=1).loc[:, ~df_date_price.columns.duplicated()]
+>>>>>>> 4aa3ec5 (Update Project)
 
 fig_area2 = go.Figure()
 fig_area2.add_trace(go.Scatter(x=df_date_price['Date'], y=df_date_price['retail_price'], fill='tozeroy', name='retail price', line=dict(width=0.5, color='crimson')))
