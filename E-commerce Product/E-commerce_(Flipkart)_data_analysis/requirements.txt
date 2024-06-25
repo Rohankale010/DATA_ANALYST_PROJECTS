@@ -1,0 +1,10 @@
+
+### Ecommerce (Flipkart) Data Analysis requirements.txt
+
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scikit-learn
+kaleido
