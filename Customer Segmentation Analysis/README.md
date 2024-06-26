@@ -50,6 +50,15 @@ You can install the required libraries using the following command:
 2. Ensure you have Python and required libraries installed.
 3. Download `Mall_Customers.csv` file using Git LFS (`git lfs pull`) or access it from the [Kaggle dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python).
 4. Run the script `customer_segmentation_analysis.py` to execute the customer segmentation analysis.
-
 ```bash
-python "Customer Segmentation Analysis/scripts/customer_segmentation_analysis.py"
+   python "Customer Segmentation Analysis/scripts/customer_segmentation_analysis.py"
+```
+5. View the generated visualizations and insights in your Python environment.
+
+## Data Source
+
+The dataset Mall_Customers.csv used in this project can be downloaded from [Kaggle Customer Segmentation Tutorial](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python).
+
+## License
+This project is licensed under the `MIT License`.
+
