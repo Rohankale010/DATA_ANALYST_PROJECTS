@@ -23,8 +23,8 @@ The COVID Data Analysis project aims to explore and visualize the spread and imp
 - Visualization of the findings
 
 ## Project Structure
-DATA_ANALYST_PROJECTS/
- ├── Covid Analysis using Python/
+```plaintext
+ Covid Analysis using Python/
      ├── data/
      │   ├── covid_19_india.csv
      │   ├── covid_vaccine_statewise.csv
@@ -40,7 +40,7 @@ DATA_ANALYST_PROJECTS/
      │   ├── least_5_vaccinated_states.png
      ├── README.md
      ├── requirements.txt
-
+```
 
 ## Installation and Setup
 
