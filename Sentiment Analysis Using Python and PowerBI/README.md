@@ -16,8 +16,7 @@ This project analyzes the sentiment of tweets using the VADER sentiment analysis
 This project aims to perform sentiment analysis on a large dataset of tweets. The goal is to clean the text data, analyze the sentiment, and save the results for further analysis.
 
 ## Project Structure
-
-
+```plaintext
 Sentiment_Analysis
 │
 ├── data
@@ -37,7 +36,7 @@ Sentiment_Analysis
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Setup Instructions
 1. Clone the repository:

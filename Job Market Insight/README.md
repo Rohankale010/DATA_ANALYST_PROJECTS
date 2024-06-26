@@ -36,7 +36,7 @@ Job Market Insight
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Overview
 
