@@ -42,8 +42,8 @@ Sentiment_Analysis
 ## Setup Instructions
 1. Clone the repository:
 ```bash
-       git clone <repository-url>
-       cd Sentiment_Analysis
+       git clone https://github.com/Rohankale010/DATA_ANALYST_PROJECTS.git
+       cd Sentiment Analysis Using Python and PowerBI
 ```
 
 2. Install the required packages:
