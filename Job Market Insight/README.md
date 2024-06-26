@@ -21,6 +21,7 @@ This project involves scraping job listings from Naukri.com to gather job insigh
 ## Project Structure
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```plaintext
 Job Market Insight
 │
@@ -40,17 +41,21 @@ Job Market Insight
 ```
 =======
 WebScraping_Naukri
+=======
+```plaintext
+Job Market Insight
+>>>>>>> 7ae394d (Update Project)
 │
 ├── job_scraper
-│ ├── init.py
-│ ├── scraper.py
-│ └── utils.py
+│   ├── __init__.py
+│   ├── scraper.py
+│   └── utils.py
 │
 ├── data
-│ └── naukri_job_listings.csv
+│   └── naukri_job_listings.csv
 │
 ├── notebooks
-│ └── WebScraping_(Naukri.com)_Website_for_Job_Insights.ipynb
+│   └── WebScraping_(Naukri.com)_Website_for_Job_Insights.ipynb
 │
 ├── requirements.txt
 └── README.md
@@ -67,10 +72,14 @@ The goal of this project is to scrape job data from Naukri.com, including job ti
 ```bash
     git clone https://github.com/Rohankale010/DATA_ANALYST_PROJECTS.git
 <<<<<<< HEAD
+<<<<<<< HEAD
     cd Job Market Insight
 =======
     cd WebScraping_Naukri
 >>>>>>> e584371 (Update Project)
+=======
+    cd Job Market Insight
+>>>>>>> 7ae394d (Update Project)
 ```
 
 2. **Create a virtual environment:**
