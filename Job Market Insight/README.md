@@ -39,6 +39,7 @@ Job Market Insight
 ├── requirements.txt
 └── README.md
 ```
+<<<<<<< HEAD
 =======
 WebScraping_Naukri
 =======
@@ -61,6 +62,8 @@ Job Market Insight
 └── README.md
 
 >>>>>>> e584371 (Update Project)
+=======
+>>>>>>> 4a99618 (Update Project)
 
 ## Overview
 

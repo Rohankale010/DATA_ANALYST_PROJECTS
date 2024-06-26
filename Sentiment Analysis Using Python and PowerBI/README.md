@@ -17,11 +17,15 @@ This project aims to perform sentiment analysis on a large dataset of tweets. Th
 
 ## Project Structure
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```plaintext
 =======
 
 
 >>>>>>> e584371 (Update Project)
+=======
+```plaintext
+>>>>>>> 4a99618 (Update Project)
 Sentiment_Analysis
 │
 ├── data
@@ -42,10 +46,14 @@ Sentiment_Analysis
 ├── requirements.txt
 └── README.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 =======
 
 >>>>>>> e584371 (Update Project)
+=======
+```
+>>>>>>> 4a99618 (Update Project)
 
 ## Setup Instructions
 1. Clone the repository:
