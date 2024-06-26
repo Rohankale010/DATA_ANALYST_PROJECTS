@@ -70,6 +70,7 @@ To run the project, follow these steps:
 
 1. **Clone the repository:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```bash
     git clone https://github.com/Rohankale010/DATA_ANALYST_PROJECTS.git
     cd DATA_ANALYST_PROJECTS/Covid Analysis using Python
@@ -81,15 +82,22 @@ To run the project, follow these steps:
 ```
 =======
     ```bash
+=======
+```bash
+>>>>>>> e584371 (Update Project)
     git clone https://github.com/Rohankale010/DATA_ANALYST_PROJECTS.git
     cd DATA_ANALYST_PROJECTS/Covid Analysis using Python
-    ``
+```
 
 2. **Create a virtual environment:**
-    ```bash
+```bash
     python -m venv venv
+<<<<<<< HEAD
     ```
 >>>>>>> d9829f8 (Update Project)
+=======
+```
+>>>>>>> e584371 (Update Project)
 
 3. **Activate the virtual environment:**
     - On Windows:
@@ -103,6 +111,7 @@ To run the project, follow these steps:
 
 4. **Install the required libraries:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```bash
     pip install -r requirements.txt
 ```
@@ -113,14 +122,21 @@ To run the project, follow these steps:
 ```
 =======
     ```bash
+=======
+```bash
+>>>>>>> e584371 (Update Project)
     pip install -r requirements.txt
-    ```
+```
 
 5. **Run the analysis script:**
-    ```bash
+```bash
     python scripts/covid_data_analysis.py
+<<<<<<< HEAD
     ```
 >>>>>>> d9829f8 (Update Project)
+=======
+```
+>>>>>>> e584371 (Update Project)
 
 ## Data Sources
 

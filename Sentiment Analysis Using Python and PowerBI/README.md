@@ -16,7 +16,12 @@ This project analyzes the sentiment of tweets using the VADER sentiment analysis
 This project aims to perform sentiment analysis on a large dataset of tweets. The goal is to clean the text data, analyze the sentiment, and save the results for further analysis.
 
 ## Project Structure
+<<<<<<< HEAD
 ```plaintext
+=======
+
+
+>>>>>>> e584371 (Update Project)
 Sentiment_Analysis
 │
 ├── data
@@ -36,13 +41,22 @@ Sentiment_Analysis
 │
 ├── requirements.txt
 └── README.md
+<<<<<<< HEAD
 ```
+=======
+
+>>>>>>> e584371 (Update Project)
 
 ## Setup Instructions
 1. Clone the repository:
 ```bash
+<<<<<<< HEAD
        git clone https://github.com/Rohankale010/DATA_ANALYST_PROJECTS.git
        cd Sentiment Analysis Using Python and PowerBI
+=======
+       git clone <repository-url>
+       cd Sentiment_Analysis
+>>>>>>> e584371 (Update Project)
 ```
 
 2. Install the required packages:
