@@ -25,10 +25,14 @@ Sales Performance Metrics Project
 │
 ├── data
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   └── Sales_Performance_Data.csv
 =======
 │   └── Sales_Performance_Data.xlsx
 >>>>>>> 9d7133c (Added Project)
+=======
+│   └── Sales_Performance_Data.csv
+>>>>>>> 0e004dd (Update README.md)
 │
 ├── analysis
 │   └── pivot_table.md
