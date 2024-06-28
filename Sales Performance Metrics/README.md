@@ -18,7 +18,7 @@ This project focuses on analyzing sales performance metrics, including total ear
 Sales Performance Metrics Project
 │
 ├── data
-│   └── Sales_Performance_Data.xlsx
+│   └── Sales_Performance_Data.csv
 │
 ├── analysis
 │   └── pivot_table.md
