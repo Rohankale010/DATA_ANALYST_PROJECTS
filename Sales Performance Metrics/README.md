@@ -61,6 +61,9 @@ The data used for this project is contained in the `Sales_Performance_Data.csv` 
 ## Dashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2980969 (Update README.md)
 ![Sales Performance Dashboard](https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Sales%20Performance%20Metrics/dashboard/Sales-Performance-Dashboard.png)
 An interactive sales performance dashboard has been created to visualize key metrics and trends. The dashboard can be found in the `Sales_Performance_Dashboard.xlsx` file located in the `dashboard` directory. It includes visuals such as total earnings, top 5 consultant revenues, total earnings by months, total paid and unpaid fees, and enrolled courses and many more with a monthly slicer for easy filtering.
 =======
