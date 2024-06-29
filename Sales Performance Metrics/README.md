@@ -7,9 +7,12 @@
 - [Methodology](#methodology)
 - [Analysis Summary](#analysis-summary)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Conclusion](#conclusion)
 >>>>>>> 9d7133c (Added Project)
+=======
+>>>>>>> c8731b7 (Update Project)
 - [Requirements](#requirements)
 - [License](#license)
 
@@ -34,11 +37,14 @@ Sales Performance Metrics Project
 │   └── Sales_Performance_Dashboard.xlsx
 │
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ├── documentation
 │   └── project_report.md
 │
 >>>>>>> 9d7133c (Added Project)
+=======
+>>>>>>> c8731b7 (Update Project)
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -50,11 +56,15 @@ The data used for this project is contained in the `Sales_Performance_Data.csv` 
 
 ## Dashboard
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![Sales Performance Dashboard](https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Sales%20Performance%20Metrics/dashboard/Sales-Performance-Dashboard.png)
 An interactive sales performance dashboard has been created to visualize key metrics and trends. The dashboard can be found in the `Sales_Performance_Dashboard.xlsx` file located in the `dashboard` directory. It includes visuals such as total earnings, top 5 consultant revenues, total earnings by months, total paid and unpaid fees, and enrolled courses and many more with a monthly slicer for easy filtering.
 =======
 An interactive sales performance dashboard has been created to visualize key metrics and trends. The dashboard can be found in the `Sales_Performance_Dashboard.xlsx` file located in the `dashboard` directory. It includes visuals such as total earnings, top 5 consultant revenues, total earnings by months, total paid and unpaid fees, and enrolled courses, with a monthly slicer for easy filtering.
 >>>>>>> 9d7133c (Added Project)
+=======
+An interactive sales performance dashboard has been created to visualize key metrics and trends. The dashboard can be found in the `Sales_Performance_Dashboard.xlsx` file located in the `dashboard` directory. It includes visuals such as total earnings, top 5 consultant revenues, total earnings by months, total paid and unpaid fees, and enrolled courses and many more with a monthly slicer for easy filtering.
+>>>>>>> c8731b7 (Update Project)
 
 ## Methodology
 The analysis includes creating pivot tables to summarize the data and generate the visualizations used in the dashboard. The steps and methods used for the analysis are documented in the `analysis/pivot_table.md` file.
@@ -63,11 +73,14 @@ The analysis includes creating pivot tables to summarize the data and generate t
 A brief summary of the analysis and key findings can be found in the `analysis/pivot_table.md` file.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ## Conclusion
 Detailed conclusions and insights derived from the analysis are documented in `documentation/project_report.md`.
 
 >>>>>>> 9d7133c (Added Project)
+=======
+>>>>>>> c8731b7 (Update Project)
 ## Requirements
 - Microsoft Excel (version 2016 or later)
 

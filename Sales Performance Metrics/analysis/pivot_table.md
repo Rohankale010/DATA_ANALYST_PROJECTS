@@ -1,5 +1,6 @@
 ## Total Earnings
 
+<<<<<<< HEAD
     Sum of Paid Fees
     15,98,30,00,000
 
@@ -47,10 +48,60 @@
     Nov	        2.8B	   2,81,40,00,000 			
     Dec	        1.2B	   1,24,70,00,000 			
     Grand Total	16.0B	   15,98,30,00,000 			
+=======
+Sum of Paid Fees
+15,98,30,00,000
+
+## Total Calls					
+                    
+Row Labels	Count of Paid Fees				
+Not Paid	311			              Not Paid	 311 
+Paid	    925			                  Paid	 925 
+Grand Total	1,236				
+
+## Top 5 Consultant Sales Revenue				
+                
+Row Labels	Sum of Paid Fees			
+Mohmed	    1,72,70,00,000		         Mohmed	1,72,70,00,000
+Rony	    1,63,80,00,000		         Rony	1,63,80,00,000
+Hany	    1,53,40,00,000		         Hany	1,53,40,00,000
+Dary	    1,36,00,00,000		         Dary	1,36,00,00,000
+Kisho	    1,28,80,00,000		         Kisho	1,28,80,00,000
+Reham	    1,24,30,00,000			
+Khalil	    1,17,70,00,000			
+Sahar	    1,06,60,00,000			
+John	    1,02,90,00,000			
+Hisham	    99,50,00,000			
+Dina	    83,20,00,000			
+Ahmed	    65,00,00,000			
+Kenza	    41,10,00,000			
+Adam	    37,90,00,000			
+Habib	    33,20,00,000			
+Jood	    32,20,00,000			
+Grand Total	15,98,30,00,000			
+
+## Total Earning by Months					
+                    
+Row         Labels	Sum of Paid Fees	         Sum of Paid Fees2 			
+Jan	        984.0M	 98,40,00,000 		         max	 3,80,90,00,000 
+Feb	        1.0B	 1,04,00,00,000 		     avg	 1,33,19,16,667 
+Mar	        116.0M	 11,60,00,000 		         min	 11,60,00,000 
+Apr	        531.0M	 53,10,00,000 			
+May	        1.2B	 1,15,80,00,000 			
+Jun	        512.0M	 51,20,00,000 			
+Jul	        442.0M	 44,20,00,000 			
+Aug	        1.2B	 1,15,20,00,000 			
+Sep	        2.2B	 2,17,80,00,000 			
+Oct	        3.8B	 3,80,90,00,000 			
+Nov	        2.8B	 2,81,40,00,000 			
+Dec	        1.2B	 1,24,70,00,000 			
+Grand Total	16.0B	 15,98,30,00,000 			
+>>>>>>> c8731b7 (Update Project)
 
                     
 ## Paid/Unpaid Calls					
                     
+<<<<<<< HEAD
     Row Labels	  Count of Fees Status				
     Paid	      925		                        Not Paid	311	25%
     Not Paid	  311		                        Paid	    925	75%
@@ -141,6 +192,98 @@
     Pre. L4	       1,03,20,00,000			
     Fndn. L6	   57,40,00,000			
     Grand Total	   15,98,30,00,000			
+=======
+Row Labels	Count of Fees Status				
+Paid	    925		                    Not Paid	311	25%
+Not Paid	311		                        Paid	925	75%
+Grand Total	1236				
+
+## Enrolled Courses							
+                            
+Row Labels	Sum of Enrolled Courses				Average of Enrolled Courses		Sum of Enrolled Courses
+Jan	        170				                              2.14		                    2642
+Feb	        162						
+Mar	        12						
+Apr	        101						
+May	        174						
+Jun	        96						
+Jul	        60						
+Aug	        189						
+Sep	        387						
+Oct	        617						
+Nov	        468						
+Dec	        206						
+Grand Total	2642						
+
+## Area Code	
+    
+Row Labels	Count of Area Code
+A1	        219
+A2	        185
+A4	        97
+A7	        99
+B12	        178
+B13	        104
+B18	        178
+C8	        176
+Grand Total	1236
+
+## Training Models	
+    
+Fees Status	Paid
+    
+Row Labels	Sum of Paid Fees
+BE	        3.9B
+CNI	        1.3B
+FC	        247.0M
+GK	        10.6B
+Grand Total	16.0B
+
+## Area Code	
+Fees Status	Paid
+    
+Row Labels	Sum of Paid Fees
+Fndn. L1	2.3B
+Fndn. L3	1.2B
+Fndn. L5	2.9B
+Fndn. L6	574.0M
+KJI. L4	    3.3B
+Pre. L2	    1.3B
+Pre. L3	    2.3B
+Pre. L4	    1.0B
+Pre. L8	    1.0B
+Grand Total	16.0B
+
+## Enrolled Courses on Training Level	
+Fees Status	Paid
+    
+Row Labels	Sum of Enrolled Courses
+Fndn. L1	374
+Fndn. L3	189
+Fndn. L5	472
+Fndn. L6	90
+KJI. L4	    561
+Pre. L2	    211
+Pre. L3	    376
+Pre. L4	    185
+Pre. L8	    184
+Grand Total	2642
+
+## Top 5 Training Level Revenue				
+Fees Status	Paid			
+                
+Row Labels	Sum of Paid Fees			
+KJI. L4	    3,33,00,00,000		KJI. L4	 3,33,00,00,000 
+Fndn. L5	2,89,20,00,000		Fndn. L5	 2,89,20,00,000 
+Pre. L3	    2,32,40,00,000		Pre. L3	 2,32,40,00,000 
+Fndn. L1	2,32,00,00,000		Fndn. L1	 2,32,00,00,000 
+Pre. L2	    1,30,90,00,000		Pre. L2	 1,30,90,00,000 
+Fndn. L3	1,15,90,00,000			
+Pre. L8	    1,04,30,00,000			
+Pre. L4	    1,03,20,00,000			
+Fndn. L6	57,40,00,000			
+Grand Total	15,98,30,00,000			
+>>>>>>> c8731b7 (Update Project)
                 
 ## Average Call Duration by Month								
     Fees Status	Paid							
@@ -162,11 +305,19 @@
 ## Total Sales by Sales Team								
     Fees Status	Paid			Fees Status	Paid			
                                     
+<<<<<<< HEAD
     Row Labels	Sum of Paid Fees	Sum of Paid Fees2		      Row Labels Sum of Paid Fees			
     Mohammed	            5.4B	   5372000000		          Mohammed	   5.4B		        Mohammed	5.4B
     Salah	                5.3B	   5281000000		           Salah	   5.3B			
     Ahmed	                2.8B	   2751000000		            Ahmed	   2.8B			
     Abdullah	            2.6B	   2579000000		           Abdullah	   2.6B			
+=======
+    Row Labels	Sum of Paid Fees	Sum of Paid Fees2		Row Labels	Sum of Paid Fees			
+    Mohammed	            5.4B	5372000000		          Mohammed	5.4B		      Mohammed	5.4B
+    Salah	                5.3B	5281000000		           Salah	5.3B			
+    Ahmed	                2.8B	2751000000		            Ahmed	2.8B			
+    Abdullah	            2.6B	2579000000		           Abdullah	2.6B			
+>>>>>>> c8731b7 (Update Project)
 
 ## Consultant by total sales				
     Fees Status	(All)			
@@ -192,6 +343,7 @@
 ## Advertisement Channel	
     Fees Status	(All)
         
+<<<<<<< HEAD
     Row Labels	        Sum of Paid Fees                   
     Company Website	     2.7B
     Facebook Page	     3.5B
@@ -209,6 +361,25 @@
 
     Paid Advertisement	
     16.0B	
+=======
+    Row Labels	Sum of Paid Fees                   
+    Company Website	2.7B
+    Facebook Page	3.5B
+    Google Ad	    1.8B
+    Television Ad	4.6B
+    WhatsApp	    2.5B
+    Youtube Channel	806.0M
+        
+                        Youtube Channel	  Google Ad	  WhatsApp	Company Website	Facebook Page	Television Ad   
+Actual	                         806.0M	       1.8B	    2.5B	     2.7B	        3.5B	          4.6B
+the difference to 
+reach highest amount	           4.8B	       3.7B	    3.1B	     2.8B	        2.0B	          1.0B
+                        
+    we added 1 billion for better visualization in donut chart					
+
+Paid Advertisement	
+16.0B	
+>>>>>>> c8731b7 (Update Project)
 
 
 ## Average call by month paid & unpaid				
@@ -246,12 +417,21 @@
     Nov	                       789.0M	     1.1B	   239.0M	   545.0M	    163.0M	     2.8B
     Dec	                       445.0M	   444.0M	    75.0M	   200.0M	     83.0M	     1.2B
                             
+<<<<<<< HEAD
     Row Labels		Total Ads.
     AD01-9361		5
     AD01-9362		
     AD01-9363		
     AD01-9364		
     AD01-9365		
+=======
+Row Labels		Total Ads.
+AD01-9361		5
+AD01-9362		
+AD01-9363		
+AD01-9364		
+AD01-9365		
+>>>>>>> c8731b7 (Update Project)
 
 ## Training Models Fees by Sales Team	
     Fees Status	(All)
