@@ -11,6 +11,7 @@
     Not Paid	  311			              Not Paid	  311 
     Paid	      925			                  Paid	  925 
     Grand Total	  1,236				
+<<<<<<< HEAD
 
 ## Top 5 Consultant Sales Revenue				
                 
@@ -63,6 +64,8 @@ Sum of Paid Fees
     Not Paid	311			              Not Paid	 311 
     Paid	    925			                  Paid	 925 
     Grand Total	1,236				
+=======
+>>>>>>> 2d125a4 (Update)
 
 ## Top 5 Consultant Sales Revenue				
                 
@@ -87,6 +90,7 @@ Sum of Paid Fees
 
 ## Total Earning by Months					
                     
+<<<<<<< HEAD
 <<<<<<< HEAD
 Row         Labels	Sum of Paid Fees	         Sum of Paid Fees2 			
 Jan	        984.0M	 98,40,00,000 		         max	 3,80,90,00,000 
@@ -119,16 +123,36 @@ Grand Total	16.0B	 15,98,30,00,000
     Dec	        1.2B	 1,24,70,00,000 			
     Grand Total	16.0B	 15,98,30,00,000 			
 >>>>>>> bf71ea5 (Update)
+=======
+    Row         Labels	   Sum of Paid Fees	                Sum of Paid Fees2 			
+    Jan	        984.0M	   98,40,00,000 		             max	 3,80,90,00,000 
+    Feb	        1.0B	   1,04,00,00,000 		             avg	 1,33,19,16,667 
+    Mar	        116.0M	   11,60,00,000 		             min	 11,60,00,000 
+    Apr	        531.0M	   53,10,00,000 			
+    May	        1.2B	   1,15,80,00,000 			
+    Jun	        512.0M	   51,20,00,000 			
+    Jul	        442.0M	   44,20,00,000 			
+    Aug	        1.2B	   1,15,20,00,000 			
+    Sep	        2.2B	   2,17,80,00,000 			
+    Oct	        3.8B	   3,80,90,00,000 			
+    Nov	        2.8B	   2,81,40,00,000 			
+    Dec	        1.2B	   1,24,70,00,000 			
+    Grand Total	16.0B	   15,98,30,00,000 			
+>>>>>>> 2d125a4 (Update)
 
                     
 ## Paid/Unpaid Calls					
                     
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2d125a4 (Update)
     Row Labels	  Count of Fees Status				
     Paid	      925		                        Not Paid	311	25%
     Not Paid	  311		                        Paid	    925	75%
     Grand Total	  1236				
+<<<<<<< HEAD
 
 ## Enrolled Courses							
                             
@@ -226,6 +250,8 @@ Grand Total	1236
     Not Paid	311		                        Paid	925	75%
     Grand Total	1236				
 >>>>>>> bf71ea5 (Update)
+=======
+>>>>>>> 2d125a4 (Update)
 
 ## Enrolled Courses							
                             
@@ -271,32 +297,32 @@ Grand Total	1236
 ## Area Code	
     Fees Status	Paid
         
-    Row Labels	Sum of Paid Fees
-    Fndn. L1	2.3B
-    Fndn. L3	1.2B
-    Fndn. L5	2.9B
-    Fndn. L6	574.0M
-    KJI. L4	    3.3B
-    Pre. L2	    1.3B
-    Pre. L3	    2.3B
-    Pre. L4	    1.0B
-    Pre. L8	    1.0B
-    Grand Total	16.0B
+    Row Labels	   Sum of Paid Fees
+    Fndn. L1	   2.3B
+    Fndn. L3	   1.2B
+    Fndn. L5	   2.9B
+    Fndn. L6	   574.0M
+    KJI. L4	       3.3B
+    Pre. L2	       1.3B
+    Pre. L3	       2.3B
+    Pre. L4	       1.0B
+    Pre. L8	       1.0B
+    Grand Total	   16.0B
 
 ## Enrolled Courses on Training Level	
     Fees Status	Paid
         
-    Row Labels	Sum of Enrolled Courses
-    Fndn. L1	374
-    Fndn. L3	189
-    Fndn. L5	472
-    Fndn. L6	90
-    KJI. L4	    561
-    Pre. L2	    211
-    Pre. L3	    376
-    Pre. L4	    185
-    Pre. L8	    184
-    Grand Total	2642
+    Row Labels	  Sum of Enrolled Courses
+    Fndn. L1	  374
+    Fndn. L3	  189
+    Fndn. L5	  472
+    Fndn. L6	  90
+    KJI. L4	      561
+    Pre. L2	      211
+    Pre. L3	      376
+    Pre. L4	      185
+    Pre. L8	      184
+    Grand Total	  2642
 
 ## Top 5 Training Level Revenue				
 <<<<<<< HEAD
@@ -317,6 +343,7 @@ Grand Total	15,98,30,00,000
 =======
     Fees Status	Paid			
                     
+<<<<<<< HEAD
     Row Labels	Sum of Paid Fees			
     KJI. L4	    3,33,00,00,000		KJI. L4	 3,33,00,00,000 
     Fndn. L5	2,89,20,00,000		Fndn. L5	 2,89,20,00,000 
@@ -329,6 +356,19 @@ Grand Total	15,98,30,00,000
     Fndn. L6	57,40,00,000			
     Grand Total	15,98,30,00,000			
 >>>>>>> bf71ea5 (Update)
+=======
+    Row Labels	   Sum of Paid Fees			
+    KJI. L4	       3,33,00,00,000		KJI. L4	     3,33,00,00,000 
+    Fndn. L5	   2,89,20,00,000		Fndn. L5	 2,89,20,00,000 
+    Pre. L3	       2,32,40,00,000		Pre. L3	     2,32,40,00,000 
+    Fndn. L1	   2,32,00,00,000		Fndn. L1	 2,32,00,00,000 
+    Pre. L2	       1,30,90,00,000		Pre. L2	     1,30,90,00,000 
+    Fndn. L3	   1,15,90,00,000			
+    Pre. L8	       1,04,30,00,000			
+    Pre. L4	       1,03,20,00,000			
+    Fndn. L6	   57,40,00,000			
+    Grand Total	   15,98,30,00,000			
+>>>>>>> 2d125a4 (Update)
                 
 ## Average Call Duration by Month								
     Fees Status	Paid							
@@ -351,11 +391,15 @@ Grand Total	15,98,30,00,000
     Fees Status	Paid			Fees Status	Paid			
                                     
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2d125a4 (Update)
     Row Labels	Sum of Paid Fees	Sum of Paid Fees2		      Row Labels Sum of Paid Fees			
     Mohammed	            5.4B	   5372000000		          Mohammed	   5.4B		        Mohammed	5.4B
     Salah	                5.3B	   5281000000		           Salah	   5.3B			
     Ahmed	                2.8B	   2751000000		            Ahmed	   2.8B			
     Abdullah	            2.6B	   2579000000		           Abdullah	   2.6B			
+<<<<<<< HEAD
 =======
     Row Labels	Sum of Paid Fees	Sum of Paid Fees2		Row Labels	Sum of Paid Fees			
     Mohammed	            5.4B	5372000000		          Mohammed	5.4B		      Mohammed	5.4B
@@ -363,6 +407,8 @@ Grand Total	15,98,30,00,000
     Ahmed	                2.8B	2751000000		            Ahmed	2.8B			
     Abdullah	            2.6B	2579000000		           Abdullah	2.6B			
 >>>>>>> c8731b7 (Update Project)
+=======
+>>>>>>> 2d125a4 (Update)
 
 ## Consultant by total sales				
     Fees Status	(All)			
@@ -389,6 +435,9 @@ Grand Total	15,98,30,00,000
     Fees Status	(All)
         
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2d125a4 (Update)
     Row Labels	        Sum of Paid Fees                   
     Company Website	     2.7B
     Facebook Page	     3.5B
@@ -396,6 +445,7 @@ Grand Total	15,98,30,00,000
     Television Ad	     4.6B
     WhatsApp	         2.5B
     Youtube Channel	     806.0M
+<<<<<<< HEAD
         
                             Youtube Channel	  Google Ad	  WhatsApp	CompanyWebsite FacebookPage  TelevisionAd   
     Actual	                         806.0M	       1.8B	    2.5B	     2.7B	        3.5B	          4.6B
@@ -414,6 +464,8 @@ Grand Total	15,98,30,00,000
     Television Ad	4.6B
     WhatsApp	    2.5B
     Youtube Channel	806.0M
+=======
+>>>>>>> 2d125a4 (Update)
         
                             Youtube Channel	  Google Ad	  WhatsApp	CompanyWebsite FacebookPage  TelevisionAd   
     Actual	                         806.0M	       1.8B	    2.5B	     2.7B	        3.5B	          4.6B
