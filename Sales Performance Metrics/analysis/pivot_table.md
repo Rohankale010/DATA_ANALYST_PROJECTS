@@ -468,12 +468,16 @@ Paid Advertisement
     Dec	                       445.0M	   444.0M	    75.0M	   200.0M	     83.0M	     1.2B
                             
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8160df6 (Update)
     Row Labels		Total Ads.
     AD01-9361		5
     AD01-9362		
     AD01-9363		
     AD01-9364		
     AD01-9365		
+<<<<<<< HEAD
 =======
 Row Labels		Total Ads.
 AD01-9361		5
@@ -482,6 +486,8 @@ AD01-9363
 AD01-9364		
 AD01-9365		
 >>>>>>> c8731b7 (Update Project)
+=======
+>>>>>>> 8160df6 (Update)
 
 ## Training Models Fees by Sales Team	
     Fees Status	(All)
