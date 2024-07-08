@@ -246,12 +246,12 @@
     Nov	                       789.0M	     1.1B	   239.0M	   545.0M	    163.0M	     2.8B
     Dec	                       445.0M	   444.0M	    75.0M	   200.0M	     83.0M	     1.2B
                             
-Row Labels		Total Ads.
-AD01-9361		5
-AD01-9362		
-AD01-9363		
-AD01-9364		
-AD01-9365		
+    Row Labels		Total Ads.
+    AD01-9361		5
+    AD01-9362		
+    AD01-9363		
+    AD01-9364		
+    AD01-9365		
 
 ## Training Models Fees by Sales Team	
     Fees Status	(All)
