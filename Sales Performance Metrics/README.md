@@ -35,6 +35,7 @@ Sales Performance Metrics Project
 The data used for this project is contained in the `Sales_Performance_Data.csv` file located in the `data` directory. The data includes columns such as Fees Status, Day, Month, Advertising Channel, Advertisement, Enrolled Courses, Paid Fees, Number of Phone Calls, Average Call Duration, Training Models, Training Levels, Area Code, Sale Team, and Consultant.
 
 ## Dashboard
+![Sales Performance Dashboard](https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Sales%20Performance%20Metrics/dashboard/Sales-Performance-Dashboard.png)
 An interactive sales performance dashboard has been created to visualize key metrics and trends. The dashboard can be found in the `Sales_Performance_Dashboard.xlsx` file located in the `dashboard` directory. It includes visuals such as total earnings, top 5 consultant revenues, total earnings by months, total paid and unpaid fees, and enrolled courses and many more with a monthly slicer for easy filtering.
 
 ## Methodology
