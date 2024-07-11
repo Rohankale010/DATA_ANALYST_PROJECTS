@@ -7,6 +7,10 @@
 - [Analysis](#analysis)
 - [Visualizations](#visualizations)
 - [Requirements](#requirements)
+<<<<<<< HEAD
+=======
+- [Usage](#usage)
+>>>>>>> 984ba14 (Update Project)
 - [Conclusion](#conclusion)
 
 ## Introduction
