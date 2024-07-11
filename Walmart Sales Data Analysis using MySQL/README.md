@@ -1,6 +1,9 @@
 # Walmart Sales Data Analysis
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 692e566 (Update Project)
 ## Table of Contents
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
@@ -25,6 +28,7 @@ Walmart-Sales-Data-Analysis/
 ├── README.md
 └── requirements.txt
 ```
+<<<<<<< HEAD
 
 ## Data
 
@@ -46,13 +50,15 @@ This project aims to explore the Walmart Sales data to understand top performing
 >>>>>>> 486766e (README.md)
 
 "In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." [source](https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Walmart%20Sales%20Data%20Analysis%20using%20MySQL/WalmartSalesData.csv.csv)
+=======
+>>>>>>> 692e566 (Update Project)
 
-## Purposes Of The Project
+## Data
 
-The major aim of thie project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
+The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Walmart%20Sales%20Data%20Analysis%20using%20MySQL/WalmartSalesData.csv.csv). This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows.
 
-## About Data
 
+<<<<<<< HEAD
 The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Walmart%20Sales%20Data%20Analysis%20using%20MySQL/WalmartSalesData.csv.csv). This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
 
 | Column                  | Description                             | Data Type      |
@@ -77,6 +83,9 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 
 ### Analysis List
 >>>>>>> 1594208 (Project)
+=======
+### Analysis
+>>>>>>> 692e566 (Update Project)
 
 1. Product Analysis
 
@@ -93,10 +102,14 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 ## Approach Used
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Database Creation and Data Insertion:** 
 =======
 1. **Data Wrangling:** This is the first step where inspection of data is done to make sure **NULL** values and missing values are detected and data replacement methods are used to replace, missing or **NULL** values.
 >>>>>>> 1594208 (Project)
+=======
+1. **Database Creation and Data Insertion:** 
+>>>>>>> 692e566 (Update Project)
 
 > 1. Build a database
 > 2. Create table and insert the data.
@@ -113,6 +126,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 > 3. Added a new column named `month_name` that contains the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). Help determine which month of the year has the most sales and profit.
 
 3. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions and aims of this project.
+<<<<<<< HEAD
 
 ## Requirements
 
@@ -135,22 +149,37 @@ The Walmart Sales Data Analysis project provides insights into various aspects o
 > 3. Added a new column named `month_name` that contains the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). Help determine which month of the year has the most sales and profit.
 
 2. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions and aims of this project.
+=======
+>>>>>>> 692e566 (Update Project)
 
-3. **Conclusion:**
+## Requirements
 
-## Business Questions To Answer
+- MySQL
 
+<<<<<<< HEAD
 ### Generic Question
 >>>>>>> 1594208 (Project)
+=======
+## Conclusion:
+The Walmart Sales Data Analysis project provides insights into various aspects of sales, customer behavior, and product performance. By analyzing these metrics, businesses can make informed decisions to enhance their operations and customer satisfaction.
+
+### Business Questions To Answer
+
+#### Generic Question
+>>>>>>> 692e566 (Update Project)
 
 1. How many unique cities does the data have?
 2. In which city is each branch?
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Product
 =======
 ### Product
 >>>>>>> 1594208 (Project)
+=======
+#### Product
+>>>>>>> 692e566 (Update Project)
 
 1. How many unique product lines does the data have?
 2. What is the most common payment method?
@@ -166,10 +195,14 @@ The Walmart Sales Data Analysis project provides insights into various aspects o
 12. What is the average rating of each product line?
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Sales
 =======
 ### Sales
 >>>>>>> 1594208 (Project)
+=======
+#### Sales
+>>>>>>> 692e566 (Update Project)
 
 1. Number of sales made in each time of the day per weekday
 2. Which of the customer types brings the most revenue?
@@ -177,10 +210,14 @@ The Walmart Sales Data Analysis project provides insights into various aspects o
 4. Which customer type pays the most in VAT?
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Customer
 =======
 ### Customer
 >>>>>>> 1594208 (Project)
+=======
+#### Customer
+>>>>>>> 692e566 (Update Project)
 
 1. How many unique customer types does the data have?
 2. How many unique payment methods does the data have?
@@ -195,10 +232,14 @@ The Walmart Sales Data Analysis project provides insights into various aspects o
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Revenue And Profit Calculations
 =======
 ## Revenue And Profit Calculations
 >>>>>>> 1594208 (Project)
+=======
+### Revenue And Profit Calculations
+>>>>>>> 692e566 (Update Project)
 
 $ COGS = unitsPrice * quantity $
 
