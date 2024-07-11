@@ -8,9 +8,12 @@
 - [Visualizations](#visualizations)
 - [Requirements](#requirements)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Usage](#usage)
 >>>>>>> 984ba14 (Update Project)
+=======
+>>>>>>> d9fbd59 (Update Project)
 - [Conclusion](#conclusion)
 
 ## Introduction
