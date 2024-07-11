@@ -77,6 +77,17 @@ The visualizations folder contains the following plots:
 - `women_participation_summer.png`: Number of Women participation in Summer season.
 - `women_participation_winter.png`: Number of Women participation in Winter season.
 
+## Requirements
+To run the analysis scripts, you need the following Python libraries:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+
+You can install the required libraries using:
+```bash
+pip install -r requirements.txt
+```
 
 ## Conclusion
 The Olympic Data Analysis project provides insights into various aspects of the Olympic Games, including participation trends, age and gender distribution, and medal achievements. These analyses help in understanding the dynamics and evolution of the Olympics over the years.
