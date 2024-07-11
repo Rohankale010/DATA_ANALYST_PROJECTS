@@ -1,40 +1,36 @@
 # Walmart Sales Data Analysis
 
-## About
+## Table of Contents
+- [Introduction](#introduction)
+- [Project Structure](#project-structure)
+- [Data](#data)
+- [Analysis](#analysis)
+- [Requirements](#requirements)
+- [Conclusion](#conclusion)
+- [Code](#code)
+
+
+## Introduction
 
 This project aims to explore the Walmart Sales data to understand top performing branches and products, sales trend of of different products, customer behaviour. The aims is to study how sales strategies can be improved and optimized. The dataset was obtained from the [Kaggle Walmart Sales Forecasting Data](https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Walmart%20Sales%20Data%20Analysis%20using%20MySQL/WalmartSalesData.csv.csv).
 
-"In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." [source](https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Walmart%20Sales%20Data%20Analysis%20using%20MySQL/WalmartSalesData.csv.csv)
+## Project Structure
+```
+Walmart-Sales-Data-Analysis/
+├── database/
+│   ├── create_database.sql
+│   ├── feature_engineering.sql
+│   ├── exploratory_data_analysis.sql
+├── README.md
+└── requirements.txt
+```
 
-## Purposes Of The Project
+## Data
 
-The major aim of thie project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
+The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Walmart%20Sales%20Data%20Analysis%20using%20MySQL/WalmartSalesData.csv.csv). This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows.
 
-## About Data
 
-The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://github.com/Rohankale010/DATA_ANALYST_PROJECTS/blob/main/Walmart%20Sales%20Data%20Analysis%20using%20MySQL/WalmartSalesData.csv.csv). This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
-
-| Column                  | Description                             | Data Type      |
-| :---------------------- | :-------------------------------------- | :------------- |
-| invoice_id              | Invoice of the sales made               | VARCHAR(30)    |
-| branch                  | Branch at which sales were made         | VARCHAR(5)     |
-| city                    | The location of the branch              | VARCHAR(30)    |
-| customer_type           | The type of the customer                | VARCHAR(30)    |
-| gender                  | Gender of the customer making purchase  | VARCHAR(10)    |
-| product_line            | Product line of the product solf        | VARCHAR(100)   |
-| unit_price              | The price of each product               | DECIMAL(10, 2) |
-| quantity                | The amount of the product sold          | INT            |
-| VAT                 | The amount of tax on the purchase       | FLOAT(6, 4)    |
-| total                   | The total cost of the purchase          | DECIMAL(10, 2) |
-| date                    | The date on which the purchase was made | DATE           |
-| time                    | The time at which the purchase was made | TIMESTAMP      |
-| payment_method                 | The total amount paid                   | DECIMAL(10, 2) |
-| cogs                    | Cost Of Goods sold                      | DECIMAL(10, 2) |
-| gross_margin_percentage | Gross margin percentage                 | FLOAT(11, 9)   |
-| gross_income            | Gross Income                            | DECIMAL(10, 2) |
-| rating                  | Rating                                  | FLOAT(2, 1)    |
-
-### Analysis List
+### Analysis
 
 1. Product Analysis
 
@@ -50,7 +46,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 
 ## Approach Used
 
-1. **Data Wrangling:** This is the first step where inspection of data is done to make sure **NULL** values and missing values are detected and data replacement methods are used to replace, missing or **NULL** values.
+1. **Database Creation and Data Insertion:** 
 
 > 1. Build a database
 > 2. Create table and insert the data.
@@ -64,18 +60,23 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 
 > 3. Added a new column named `month_name` that contains the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). Help determine which month of the year has the most sales and profit.
 
-2. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions and aims of this project.
+3. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions and aims of this project.
 
-3. **Conclusion:**
+## Requirements
 
-## Business Questions To Answer
+- MySQL
 
-### Generic Question
+## Conclusion:
+The Walmart Sales Data Analysis project provides insights into various aspects of sales, customer behavior, and product performance. By analyzing these metrics, businesses can make informed decisions to enhance their operations and customer satisfaction.
+
+### Business Questions To Answer
+
+#### Generic Question
 
 1. How many unique cities does the data have?
 2. In which city is each branch?
 
-### Product
+#### Product
 
 1. How many unique product lines does the data have?
 2. What is the most common payment method?
@@ -90,14 +91,14 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 9. What is the most common product line by gender?
 12. What is the average rating of each product line?
 
-### Sales
+#### Sales
 
 1. Number of sales made in each time of the day per weekday
 2. Which of the customer types brings the most revenue?
 3. Which city has the largest tax percent/ VAT (**Value Added Tax**)?
 4. Which customer type pays the most in VAT?
 
-### Customer
+#### Customer
 
 1. How many unique customer types does the data have?
 2. How many unique payment methods does the data have?
@@ -111,7 +112,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 10. Which day of the week has the best average ratings per branch?
 
 
-## Revenue And Profit Calculations
+### Revenue And Profit Calculations
 
 $ COGS = unitsPrice * quantity $
 
