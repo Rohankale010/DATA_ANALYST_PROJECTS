@@ -7,7 +7,6 @@
 - [Analysis](#analysis)
 - [Visualizations](#visualizations)
 - [Requirements](#requirements)
-- [Usage](#usage)
 - [Conclusion](#conclusion)
 
 ## Introduction
