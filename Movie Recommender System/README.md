@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Movie Recommender System
 
 This project is a Movie Recommender System built using Python. The system recommends similar movies based on a selected movie using various features like genres, keywords, cast, and crew.
@@ -88,3 +89,6 @@ url = "https://api.themoviedb.org/3/movie/{}?api_key=YOUR_API_KEY&language=en-US
 
 The Movie Recommender System is a powerful tool for discovering new movies based on user preferences. By leveraging various movie attributes such as genres, keywords, cast, and crew, the system provides personalized recommendations that enhance the movie-watching experience. The integration of Streamlit allows for an interactive and user-friendly interface, making it easy for users to receive recommendations and explore movie options visually.
 
+=======
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data
+>>>>>>> b64dd3f (Added Project)
