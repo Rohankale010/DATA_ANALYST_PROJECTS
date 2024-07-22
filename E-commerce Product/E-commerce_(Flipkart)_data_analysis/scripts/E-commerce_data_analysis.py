@@ -5,6 +5,7 @@ import seaborn as sns
 import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
+import plotly.io as pio  # use to save plotly visualizations
 from sklearn.impute import SimpleImputer
 import warnings
 warnings.filterwarnings('ignore')
@@ -61,14 +62,14 @@ fig_both.update_layout(title_text='Top products and brands distribution',
                                     dict(text='Brand', x=0.82, y=0.5, font_size=20, showarrow=False)])
 
 # Save the figure as PNG
-fig_both.write_image("D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-commerce_(Flipkart)_data_analysis/visualizations/top_products_brands_distribution.png")
+#pio.write_image(fig_both,"D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-commerce_(Flipkart)_data_analysis/visualizations/top_products_brands_distribution.png")
 
 # Additional analysis and visualizations
 df['brand'].replace('FashBlush', 'Fash Blush', inplace=True)
 df_discount = df.query('Discount_percentage > 90').dropna()
 max_discount = pd.DataFrame(round(df_discount.groupby('brand')['Discount_percentage'].mean().sort_values(ascending=False).reset_index(), 3))
 fig_bar = px.bar(max_discount, x='brand', y='Discount_percentage', color='brand', title='Brands with Highest Average Discount Percentage')
-fig_bar.write_image("D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-commerce_(Flipkart)_data_analysis/visualizations/brands_highest_discount.png")
+#pio.write_image(fig_bar,"D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-commerce_(Flipkart)_data_analysis/visualizations/brands_highest_discount.png")
 
 # Funnel plot
 total_prod = len(df['pid'])
@@ -79,7 +80,7 @@ df_funnel_1 = dict(
     stage=['Total Products', 'Product with Ratings', 'Product with 5 Star Ratings']
 )
 funnel_1_fig = px.funnel(df_funnel_1, x='number', y='stage')
-funnel_1_fig.write_image("D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-commerce_(Flipkart)_data_analysis/visualizations/ratings_funnel.png")
+#pio.write_image(funnel_1_fig,"D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-commerce_(Flipkart)_data_analysis/visualizations/ratings_funnel.png")
 
 # Ratings vs Count plot
 df1 = df[df['product_rating'] != 'No rating available']
@@ -90,7 +91,7 @@ ratings.rename(columns={'index': 'Ratings', 'product_rating': 'Counts'}, inplace
 fig_dot2 = go.Figure()
 fig_dot2.add_trace(go.Scatter(x=ratings['Ratings'], y=ratings['Counts'], mode='markers', name='ratings', marker=dict(color='crimson', size=12)))
 fig_dot2.update_layout(title='Ratings vs Count', xaxis_title='Ratings', yaxis_title='Count')
-fig_dot2.write_image("D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-commerce_(Flipkart)_data_analysis/visualizations/ratings_vs_count.png")
+#pio.write_image(fig_dot2,"D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-commerce_(Flipkart)_data_analysis/visualizations/ratings_vs_count.png")
 
 # Price over Time plot
 df_date_retail = pd.DataFrame(df.groupby('Date')['retail_price'].mean().reset_index())
@@ -102,9 +103,11 @@ fig_area2 = go.Figure()
 fig_area2.add_trace(go.Scatter(x=df_date_price['Date'], y=df_date_price['retail_price'], fill='tozeroy', name='retail price', line=dict(width=0.5, color='crimson')))
 fig_area2.add_trace(go.Scatter(x=df_date_price['Date'], y=df_date_price['discounted_price'], fill='tozeroy', name='discount price', line=dict(width=0.5, color='darkslategray')))
 fig_area2.update_layout(xaxis_title='Dates', yaxis_title='Price (in 1000s)', plot_bgcolor='white')
-fig_area2.write_image("D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-commerce_(Flipkart)_data_analysis/visualizations/price_over_time.png")
+#pio.write_image(fig_area2,"D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-commerce_(Flipkart)_data_analysis/visualizations/price_over_time.png")
 
 # Clicks vs Time plot
 scat2 = px.scatter(x=df['Time'].sort_values(ascending=True), y=df['product_url'])
 scat2.update_layout(title_text='No of Clicks vs time', xaxis_title='Time', yaxis_title='No of Clicks')
-scat2.write_image("D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-commerce_(Flipkart)_data_analysis/visualizations/clicks_vs_time.png")
+#pio.write_image(scat2,"D:\Projects\DATA_ANALYST_PROJECTS\E-commerce Product\E-commerce_(Flipkart)_data_analysis/visualizations/clicks_vs_time.png")
+
+# we have save image manually
