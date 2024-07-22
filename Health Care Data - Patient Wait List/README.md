@@ -92,15 +92,18 @@ To analyze patient wait list data to provide actionable insights and identify ke
    - Donut chart for waitlist bifurcation by case type
    - Bar charts for time band vs age profile and top waitlist by specialty
    - Line chart for monthly trend analysis
+   
    ![Summary](<Dashboard/Summary - Health Care Data.png>)
 
 2. **Detailed View:**
    - Filter criteria: Archive Date, Specialty Name, Case Type, Time Bands, Age Profile
    - Grid view for detailed breakdown by specialty and case type
+
    ![Detailed View](<Dashboard/Detailed View - Health Care Data.png>)
 
 3. **Drill Down:**
    - Total waitlist and specialty group breakup bar chart
+
    ![Drill Down](<Dashboard/Drilled Down - Health Care Data.png>)
 
 ## Conclusion
