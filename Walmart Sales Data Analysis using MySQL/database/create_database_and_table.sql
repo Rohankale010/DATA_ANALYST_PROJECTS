@@ -1,6 +1,8 @@
+-- Step 1: Create Database and Use it
 CREATE DATABASE IF NOT EXISTS walmartsales;
 USE walmartsales;
 
+-- Step 2: Create sales Table
 CREATE TABLE sales (
   invoice_id VARCHAR(20) NOT NULL PRIMARY KEY,
   branch VARCHAR(10) NOT NULL,
