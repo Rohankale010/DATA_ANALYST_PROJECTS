@@ -41,7 +41,7 @@ statewise = pd.pivot_table(data=covid_df, values=['Confirmed', 'Cured', 'Deaths'
 statewise['Recovery_rate'] = statewise['Cured'] * 100 / statewise['Confirmed']
 statewise['Mortality_rate'] = statewise['Deaths'] * 100 / statewise['Confirmed']
 statewise = statewise.sort_values(by='Confirmed', ascending=False)
-print(statewise.style.background_gradient(cmap='cubehelix'))
+statewise.style.background_gradient(cmap='cubehelix')
 
 # Top 10 Active case based on states
 top_10_active_cases = covid_df.groupby('State/UnionTerritory')[['Active_cases', 'Date']].max().sort_values(by='Active_cases', ascending=False).reset_index()
@@ -85,12 +85,6 @@ vaccine_df.rename(columns={'Total Individuals Vaccinated': 'Total'}, inplace=Tru
 
 # Display the information of dataset
 print(vaccine_df.info())
-
-# Visualizing the male and female vaccination
-male = vaccine_df['Male(Individuals Vaccinated)'].sum()
-female = vaccine_df['Female(Individuals Vaccinated)'].sum()
-fig = px.pie(names=['Male', 'Female'], values=[male, female], title='Male and Female Vaccination')
-fig.show()
 
 # Most Vaccinated State in India
 most_vacc = vaccine_df.groupby('State')['Total'].sum().sort_values(ascending=False).reset_index()

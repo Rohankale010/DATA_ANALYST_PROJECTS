@@ -87,7 +87,7 @@ Make sure to have the necessary libraries and tools installed to run the code an
 
 ## Contact
 
-If you have any questions or feedback, feel free to reach out to me at [rohan](mailto:rohankale010@gmail.com).
+If you have any questions or feedback, feel free to reach out to me at [Mail](mailto:rohankale010@gmail.com).
 
 Thank you for visiting my portfolio!
 
