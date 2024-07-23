@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # DATA_ANALYST_PROJECTS
 =======
 =======
+=======
+>>>>>>> 0646561512bca78de4fd0b712502b938da41cc3f
 # Data Analytics Portfolio
 
 Welcome to my Data Analytics Portfolio! This repository contains various projects I have worked on, demonstrating my skills in data analysis, machine learning, and data visualization.
@@ -109,14 +112,20 @@ Thank you for visiting my portfolio!
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3065bd5 (Update)
 
 =======
 >>>>>>> 4d1a0d8 (Update)
+=======
+>>>>>>> 0646561512bca78de4fd0b712502b938da41cc3f
 ## NOTE :
 **For Excel Projects:**
 - The `analysis.md` should focus on the use of pivot tables and other Excel functionalities to derive insights.
 
 **For Power BI Projects:**
 - The `analysis.md` should focus on the insights derived from the visualizations and dashboards.
+<<<<<<< HEAD
 >>>>>>> d954e17 (Create README.md)
+=======
+>>>>>>> 0646561512bca78de4fd0b712502b938da41cc3f

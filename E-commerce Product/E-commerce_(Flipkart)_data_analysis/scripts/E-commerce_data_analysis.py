@@ -98,6 +98,7 @@ df_date_retail = pd.DataFrame(df.groupby('Date')['retail_price'].mean().reset_in
 df_date_discount = pd.DataFrame(df.groupby('Date')['discounted_price'].mean().reset_index())
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 df_date_price = pd.concat([df_date_retail, df_date_discount], axis=1)
 df_date_price=df_date_price.loc[:, ~df_date_price.columns.duplicated()]
 =======
@@ -107,6 +108,10 @@ df_date_price = pd.concat([df_date_retail, df_date_discount], axis=1).loc[:, ~df
 df_date_price = pd.concat([df_date_retail, df_date_discount], axis=1)
 df_date_price=df_date_price.loc[:, ~df_date_price.columns.duplicated()]
 >>>>>>> 6ef0776 (Added Project)
+=======
+df_date_price = pd.concat([df_date_retail, df_date_discount], axis=1)
+df_date_price=df_date_price.loc[:, ~df_date_price.columns.duplicated()]
+>>>>>>> 0646561512bca78de4fd0b712502b938da41cc3f
 
 fig_area2 = go.Figure()
 fig_area2.add_trace(go.Scatter(x=df_date_price['Date'], y=df_date_price['retail_price'], fill='tozeroy', name='retail price', line=dict(width=0.5, color='crimson')))
