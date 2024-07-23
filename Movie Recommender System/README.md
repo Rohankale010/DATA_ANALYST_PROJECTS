@@ -25,10 +25,14 @@ The application is built with Python and employs libraries such as Pandas for da
 
 ```plaintext
 <<<<<<< HEAD
+<<<<<<< HEAD
 Movie Recommender System/
 =======
 Pizza Sales Analysis/
 >>>>>>> 4d1a0d8 (Update)
+=======
+Movie Recommender System/
+>>>>>>> 8b5c008 (Update)
 ├── data/
 │    ├── tmdb_5000_credits.csv
 │    └── tmdb_5000_movies.csv
