@@ -20,7 +20,7 @@ The application is built with Python and employs libraries such as Pandas for da
 ## Project Structure
 
 ```plaintext
-Pizza Sales Analysis/
+Movie Recommender System/
 ├── data/
 │    ├── tmdb_5000_credits.csv
 │    └── tmdb_5000_movies.csv
