@@ -17,10 +17,12 @@ This project aims to explore the Walmart Sales data to understand top performing
 ## Project Structure
 ```
 Walmart-Sales-Data-Analysis/
+├── data/
+│   └── WalmartSalesData.csv  
 ├── database/
-│   ├── create_database.sql
+│   ├── create_database_and_table.sql
 │   ├── feature_engineering.sql
-│   ├── exploratory_data_analysis.sql
+│   └── exploratory_data_analysis.sql
 ├── README.md
 └── requirements.txt
 ```
