@@ -26,7 +26,7 @@ Welcome to my Data Analytics Portfolio! This repository contains various project
 - [Vrinda Store Data Analysis](#vrinda-store-data-analysis)
 - [Walmart Sales Data Analysis](#walmart-sales-data-analysis)
 
-## [Covid Analysis](Covid%20Analysis/)
+## [Covid Analysis](Covid Analysis using Python/)
 Analyzed Covid-19 data to understand the spread and impact of the virus. Performed data cleaning, visualization, and statistical analysis using Python.
 
 ## [Customer Segmentation Analysis](Customer%20Segmentation%20Analysis/)
