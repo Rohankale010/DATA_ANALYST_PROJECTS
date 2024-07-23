@@ -1,5 +1,3 @@
-# DATA_ANALYST_PROJECTS
-
 # Data Analytics Portfolio
 
 Welcome to my Data Analytics Portfolio! This repository contains various projects I have worked on, demonstrating my skills in data analysis, machine learning, and data visualization.
