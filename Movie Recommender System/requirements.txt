@@ -1,2 +1,8 @@
-streamlit
-requests
+- Python 3.x
+- Pandas
+- NumPy
+- Scikitlearn
+- NLTK
+- Pickle
+- Streamlit
+- Requests
