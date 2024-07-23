@@ -26,13 +26,13 @@ Welcome to my Data Analytics Portfolio! This repository contains various project
 - [Vrinda Store Data Analysis](#vrinda-store-data-analysis)
 - [Walmart Sales Data Analysis](#walmart-sales-data-analysis)
 
-## [Covid Analysis](Covid Analysis using Python/)
+## [Covid Analysis](Covid%20Analysis%20using%20Python/)
 Analyzed Covid-19 data to understand the spread and impact of the virus. Performed data cleaning, visualization, and statistical analysis using Python.
 
 ## [Customer Segmentation Analysis](Customer%20Segmentation%20Analysis/)
 Used clustering techniques to segment customers based on purchasing behavior. Implemented k-means clustering and analyzed the results using Python.
 
-## [E-commerce Product Analysis](E-commerce%20Product%20Analysis/)
+## [E-commerce Product Analysis and Tracker](E-commerce%20Product/)
 Analyzed e-commerce product data to gain insights into sales performance, customer preferences, and trends. Performed data cleaning, visualization, and statistical analysis using Python and created a Product price tracker it will inform you whenever price drop to your desirable price. 
 
 ## [HR Analytics](HR%20Analytics/)
@@ -59,19 +59,19 @@ Analyzed pizza sales data to derive insights into order volumes, revenue, popula
 ## [Sales Performance Metrics](Sales%20Performance%20Metrics/)
 Analyzed sales data to derive key performance metrics, trends, and insights. Used Excel for data cleaning, analysis, and visualization.
 
-## [Sentiment Analysis](Sentiment%20Analysis/)
+## [Sentiment Analysis](Sentiment%20Analysis%20Using%20Python%20and%20PowerBI/)
 Performed sentiment analysis on social media data to understand public opinion on various topics. Used natural language processing techniques and machine learning models in Python.
 
-## [Spotify Data Analysis](Spotify%20Data%20Analysis/)
+## [Spotify Data Analysis](Spotify/)
 Analyzed Spotify data to understand music trends, user preferences, and song characteristics. Used Python for data cleaning, visualization, and analysis.
 
-## [SuperStore Sales Analysis](SuperStore%20Sales%20Analysis/)
+## [SuperStore Sales Analysis](SuperStore%20Sales/)
 Analyzed sales data from a SuperStore to understand sales performance, product trends, and customer behavior. Used Python for data cleaning, visualization, and analysis.
 
 ## [Vrinda Store Data Analysis](Vrinda%20Store%20Data%20Analysis/)
 Analyzed sales data from Vrinda Store to gain insights into sales performance, customer preferences, and trends. Used Excel for data cleaning, analysis, and visualization.
 
-## [Walmart Sales Data Analysis](Walmart%20Sales%20Data%20Analysis/)
+## [Walmart Sales Data Analysis](Walmart%20Sales%20Data%20Analysis%20using%20MySQL/)
 Analyzed Walmart sales data to identify trends, seasonality, and factors affecting sales. Used MySQL for database management and SQL queries for analysis.
 
 ## Getting Started
@@ -108,8 +108,11 @@ Thank you for visiting my portfolio!
 
 
 
+<<<<<<< HEAD
 >>>>>>> 3065bd5 (Update)
 
+=======
+>>>>>>> 4d1a0d8 (Update)
 ## NOTE :
 **For Excel Projects:**
 - The `analysis.md` should focus on the use of pivot tables and other Excel functionalities to derive insights.
