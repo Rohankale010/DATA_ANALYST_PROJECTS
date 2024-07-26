@@ -6,13 +6,7 @@
 - [Dashboard](#dashboard)
 - [Methodology](#methodology)
 - [Analysis Summary](#analysis-summary)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 - [Conclusion](#conclusion)
->>>>>>> 9d7133c (Added Project)
-=======
->>>>>>> c8731b7 (Update Project)
 - [Requirements](#requirements)
 - [License](#license)
 
@@ -24,15 +18,9 @@ This project focuses on analyzing sales performance metrics, including total ear
 Sales Performance Metrics Project
 │
 ├── data
-<<<<<<< HEAD
-<<<<<<< HEAD
 │   └── Sales_Performance_Data.csv
-=======
 │   └── Sales_Performance_Data.xlsx
->>>>>>> 9d7133c (Added Project)
-=======
 │   └── Sales_Performance_Data.csv
->>>>>>> 0e004dd (Update README.md)
 │
 ├── analysis
 │   └── pivot_table.md
@@ -40,15 +28,9 @@ Sales Performance Metrics Project
 ├── dashboard
 │   └── Sales_Performance_Dashboard.xlsx
 │
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ├── documentation
 │   └── project_report.md
 │
->>>>>>> 9d7133c (Added Project)
-=======
->>>>>>> c8731b7 (Update Project)
 ├── requirements.txt
 ├── LICENSE
 └── README.md

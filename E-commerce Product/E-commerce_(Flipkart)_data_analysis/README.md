@@ -61,7 +61,7 @@ You can install the required libraries using the following command:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 
 ## Usage
