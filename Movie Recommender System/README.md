@@ -28,7 +28,7 @@ Movie Recommender System/
 │    ├── movies.pkl
 │    └── similarity.pkl
 ├── script/
-│    ├── spp.py
+│    ├── app.py
 │    ├── movies.pkl
 │    └── similarity.pkl
 ├── README.md
