@@ -1,0 +1,7 @@
+
+```txt
+pywin32
+```
+
+> Only `pywin32` is needed if you use Windows and want to interact with system-level processes like opening `.exe` files.
+

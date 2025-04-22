@@ -5,7 +5,7 @@ This project is a Movie Recommender System built using Python. The system recomm
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Project Structure](#project-structure)
-- [Requirementa](#requirements)
+- [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Key](#api-key)
